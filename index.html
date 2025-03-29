@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Summarizer</title>
+</head>
+<body>
+    <h1>Welcome to the PDF Summarizer</h1>
+    <form action="/summarize/" method="post" enctype="multipart/form-data">
+        <label for="pdf">Upload a PDF file:</label>
+        <input type="file" id="pdf" name="file" accept="application/pdf" required>
+        <button type="submit">Summarize</button>
+    </form>
+</body>
+</html>
